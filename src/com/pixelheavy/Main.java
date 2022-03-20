@@ -22,12 +22,12 @@ public class Main {
         //call crawlPage
     }
 
-    private static void crawlPage(String url, String rootUrl, String baseUrl){
+    private static void crawlPage(String url, String rootUrl, String domain, List<String> visitedUrls){
         //find base url (no querystring or fragment)
         //find root url (up to first slash)
         //load page
         //compile list of all href's (joining onto root or base as appropriate)
-        //recurse for each
+        //recurse for each, if not in dictionary of visited pages, and not outside domain
         //will this blow the stack?
 
     }
